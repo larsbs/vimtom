@@ -14,7 +14,7 @@ let s:V2 = [ '#abb2bf' , '#3a3f4b' , 233 , 214 ]
 let s:V3 = [ '#abb2bf' , '#14161A' , 15  , 233 ]
 
 " Replace mode
-let s:R1 = [ '#282c34' , '#e06c75' , 15 , 196 ]
+let s:R1 = [ '#282c34' , '#cc525b' , 15 , 196 ]
 let s:R2 = [ '#abb2bf' , '#3a3f4b' , 15 , 203 ]
 let s:R3 = [ '#abb2bf' , '#14161A' , 15 , 233 ]
 
@@ -44,9 +44,9 @@ let g:airline#themes#vimtom#palette.ctrlp = airline#extensions#ctrlp#generate_co
 
 " Tabline
 let g:airline#themes#vimtom#palette.tabline = {
-      \ 'airline_tab':     [ '#abb2bf' , '#4b5262' ,  15 , 55  , '' ],
-      \ 'airline_tabsel':  [ '#abb2bf' , '#282c34' ,  15 , 98  , '' ],
+      \ 'airline_tab':     [ '#abb2bf' , '#2f363f' ,  15 , 55  , '' ],
+      \ 'airline_tabsel':  [ '#abb2bf' , '#4b5262' ,  15 , 98  , '' ],
       \ 'airline_tabtype': [ '#abb2bf' , '#3a3f4b' ,  15 , 98  , '' ],
       \ 'airline_tabfill': [ '#abb2bf' , '#14161A' ,  15 , 233 , '' ],
-      \ 'airline_tabmod':  [ '#282c34' , '#e06c75' ,  15 , 33  , '' ]
+      \ 'airline_tabmod':  [ '#282c34' , '#cc525b' ,  15 , 33  , '' ]
       \ }

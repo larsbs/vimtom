@@ -11,7 +11,7 @@
 " =================
 "Hi htmlTag                   s:accent_teal       s:ignore
 hi link htmlTag              Normal
-Hi htmlTagName               s:light_red         s:ignore
+Hi htmlTagName               s:soft_red          s:ignore
 
 hi link htmlEndTag           htmlTag
 

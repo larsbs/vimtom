@@ -67,7 +67,7 @@ let s:cursor_blue       = '#3f5e9d'  " Cursor
 
 let s:light_blue        = '#61afef'  " Functions
 let s:soft_red          = '#e06c75'  " Errors
-let s:dark_soft_red     = '#e06c75'  " Not used? *
+let s:dark_soft_red     = '#cc525b'  " Not used? *
 let s:soft_green        = '#98c379'  " Strings
 let s:soft_violet       = '#c678dd'  " Keyword
 let s:soft_lime_green   = '#d9f5dd'  " Operators *
@@ -91,7 +91,7 @@ Hi DiffChange           s:soft_orange        s:darkest_grey_blue
 hi DiffChange           gui=bold
 Hi DiffDelete           s:soft_red           s:darkest_grey_blue
 Hi DiffText             s:light_blue         s:darkest_grey_blue
-Hi ErrorMsg             s:darker_grey_blue   s:soft_red
+Hi ErrorMsg             s:darker_grey_blue   s:dark_soft_red
 hi ErrorMsg             gui=none
 Hi VertSplit            s:darker_grey_blue   s:dark_grey_blue
 Hi Folded               s:darker_grey_blue   s:grey_blue
@@ -113,7 +113,7 @@ hi Question             gui=none
 Hi Title                s:light_blue         s:ignore
 Hi Visual               s:none               s:light_grey_blue
 "Hi VisualNOS            s:testing            s:testing
-Hi WarningMsg           s:soft_red           s:ignore
+Hi WarningMsg           s:dark_soft_red      s:ignore
 Hi WildMenu             s:testing            s:testing
 Hi Menu                 s:testing            s:testing
 Hi Scrollbar            s:testing            s:testing
