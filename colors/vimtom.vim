@@ -133,7 +133,7 @@ hi Comment              gui=italic
 " CONSTANTS "{{{
 " =========
 " Any constant
-Hi Constant             s:soft_red           s:ignore
+Hi Constant             s:dark_orange        s:ignore
 " A string constant
 Hi String               s:soft_green         s:ignore
 " }}}
