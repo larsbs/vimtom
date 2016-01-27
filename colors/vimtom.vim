@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Lorenzo Ruiz <lars@sindrosoft.com>
-" URL: https://github.com/larsbs/vimterial
+" URL: https://github.com/larsbs/vimtom
 
 
 " CONFIGURATION "{{{
@@ -13,7 +13,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let colors_name="vimterial"
+let colors_name="vimtom"
 " }}}
 
 " UTILS "{{{
