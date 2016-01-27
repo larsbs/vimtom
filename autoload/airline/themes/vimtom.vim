@@ -1,21 +1,21 @@
 " Normal mode
 let s:N1 = [ '#abb2bf' , '#4b5262' , 15 , 55  ]
-let s:N2 = [ '#abb2bf' , '#56b6c2' , 15 , 98  ]
+let s:N2 = [ '#abb2bf' , '#3a3f4b' , 15 , 98  ]
 let s:N3 = [ '#abb2bf' , '#14161A' , 15 , 233 ]
 
 " Insert mode
 let s:I1 = [ '#282c34' , '#61afef' , 15 , 33  ]
-let s:I2 = [ '#abb2bf' , '#56b6c2' , 15 , 39  ]
+let s:I2 = [ '#abb2bf' , '#3a3f4b' , 15 , 39  ]
 let s:I3 = [ '#abb2bf' , '#14161A' , 15 , 233 ]
 
 " Visual mode
 let s:V1 = [ '#282c34' , '#98c379' , 233 , 202 ]
-let s:V2 = [ '#abb2bf' , '#56b6c2' , 233 , 214 ]
+let s:V2 = [ '#abb2bf' , '#3a3f4b' , 233 , 214 ]
 let s:V3 = [ '#abb2bf' , '#14161A' , 15  , 233 ]
 
 " Replace mode
 let s:R1 = [ '#282c34' , '#e06c75' , 15 , 196 ]
-let s:R2 = [ '#abb2bf' , '#56b6c2' , 15 , 203 ]
+let s:R2 = [ '#abb2bf' , '#3a3f4b' , 15 , 203 ]
 let s:R3 = [ '#abb2bf' , '#14161A' , 15 , 233 ]
 
 let g:airline#themes#vimtom#palette = {}
@@ -37,7 +37,7 @@ if !get(g:, 'loaded_ctrlp', 0)
 endif
 
 let s:CP1 =  [ '#abb2bf' , '#4b5262' , 15 , 55 ]
-let s:CP2 =  [ '#abb2bf' , '#56b6c2' , 15 , 98 ]
+let s:CP2 =  [ '#abb2bf' , '#3a3f4b' , 15 , 98 ]
 let s:CP3 =  [ '#4b5262' , '#abb2bf' , 55 , 15 ]
 
 let g:airline#themes#vimtom#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(s:CP1, s:CP2, s:CP3)
@@ -45,8 +45,8 @@ let g:airline#themes#vimtom#palette.ctrlp = airline#extensions#ctrlp#generate_co
 " Tabline
 let g:airline#themes#vimtom#palette.tabline = {
       \ 'airline_tab':     [ '#abb2bf' , '#4b5262' ,  15 , 55  , '' ],
-      \ 'airline_tabsel':  [ '#abb2bf' , '#56b6c2' ,  15 , 98  , '' ],
-      \ 'airline_tabtype': [ '#abb2bf' , '#56b6c2' ,  15 , 98  , '' ],
+      \ 'airline_tabsel':  [ '#abb2bf' , '#282c34' ,  15 , 98  , '' ],
+      \ 'airline_tabtype': [ '#abb2bf' , '#3a3f4b' ,  15 , 98  , '' ],
       \ 'airline_tabfill': [ '#abb2bf' , '#14161A' ,  15 , 233 , '' ],
       \ 'airline_tabmod':  [ '#282c34' , '#e06c75' ,  15 , 33  , '' ]
       \ }
