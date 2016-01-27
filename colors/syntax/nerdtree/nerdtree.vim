@@ -14,7 +14,7 @@ hi NERDTreeDirSlash        guifg=#d7dae0               gui=none ctermbg=none
 hi NERDTreeDir             guifg=#d7dae0               gui=bold ctermbg=none
 hi NERDTreeUp              guifg=#ff0000               gui=none ctermbg=none
 hi NERDTreeFile            guifg=#9da5b4               gui=none ctermbg=none
-hi NERDTreeCWD             guifg=#56b6c2               gui=none ctermbg=none
-hi NERDTreeOpenable        guifg=#56b6c2               gui=none ctermbg=none
-hi NERDTreeClosable        guifg=#56b6c2               gui=none ctermbg=none
+hi NERDTreeCWD             guifg=#639fce               gui=none ctermbg=none
+hi NERDTreeOpenable        guifg=#639fce               gui=none ctermbg=none
+hi NERDTreeClosable        guifg=#639fce               gui=none ctermbg=none
 " }}}
