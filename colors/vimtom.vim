@@ -75,7 +75,7 @@ let s:soft_orange       = '#e5c06f'  " Global objects
 let s:dark_orange       = '#d19a66'  " HTML args
 let s:light_red         = '#e06c75'  " HTML Tag name
 
-let s:pmenu_bg          = '#3a3f4e'  " PMenu background
+let s:pmenu_bg          = '#3a3f4b'  " PMenu background
 " }}}
 
 " GENERAL "{{{
