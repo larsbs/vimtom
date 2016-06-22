@@ -120,10 +120,10 @@ Hi WildMenu             s:testing            s:testing
 Hi Menu                 s:testing            s:testing
 Hi Scrollbar            s:testing            s:testing
 Hi Tooltip              s:testing            s:testing
-Hi Pmenu                s:pmenu_bg           s:lighter_grey_blue
-Hi PmenuSel             s:darkest_grey_blue  s:ignore
-Hi PmenuSbar            s:grey_blue          s:ignore
-Hi PmenuThumb           s:lighter_grey_blue  s:ignore
+Hi Pmenu                s:light_grey_blue    s:pmenu_bg
+Hi PmenuSel             s:ignore             s:darkest_grey_blue
+Hi PmenuSbar            s:ignore             s:grey_blue
+Hi PmenuThumb           s:ignore             s:lighter_grey_blue
 " }}}
 
 
