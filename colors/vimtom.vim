@@ -74,6 +74,8 @@ let s:soft_lime_green   = '#d9f5dd'  " Operators *
 let s:soft_orange       = '#e5c06f'  " Global objects
 let s:dark_orange       = '#d19a66'  " HTML args
 let s:light_red         = '#e06c75'  " HTML Tag name
+
+let s:pmenu_bg          = '#3a3f4e'  " PMenu background
 " }}}
 
 " GENERAL "{{{
@@ -118,6 +120,10 @@ Hi WildMenu             s:testing            s:testing
 Hi Menu                 s:testing            s:testing
 Hi Scrollbar            s:testing            s:testing
 Hi Tooltip              s:testing            s:testing
+Hi Pmenu                s:pmenu_bg           s:lighter_grey_blue
+Hi PmenuSel             s:darkest_grey_blue  s:ignore
+Hi PmenuSbar            s:grey_blue          s:ignore
+Hi PmenuThumb           s:lighter_grey_blue  s:ignore
 " }}}
 
 
