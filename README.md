@@ -42,17 +42,17 @@ Then save the file and run `vim +PluginInstall`
 
 ### Javascript
 
-![JavaScript screenshot]()
-![JavaScript screenshot]()
+![JavaScript screenshot](screenshots/jsx.png)
+![JavaScript screenshot](screenshots/js.png)
 
 ### HTML
 
-![HTML screenshot]()
+![HTML screenshot](screenshots/html.png)
 
-### Python
+### Ruby
 
-![Python screenshot]()
+![Ruby screenshot](screenshots/ruby.png)
 
 ### LESS
 
-![LESS screenshot]()
+![LESS screenshot](screenshots/less.png)
